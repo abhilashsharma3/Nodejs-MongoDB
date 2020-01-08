@@ -2,9 +2,9 @@
 var readLineSync=require('readline-sync');
 const MongoClient = require('mongodb').MongoClient;
 const assert = require('assert');
-const username="cs5220stu27";
-const password="11NPrWnIGQyf";
-const dbUri=`mongodb://${username}:${password}@ecst-csproj2.calstatela.edu:6317/?authSource=${username}&authMechanism=SCRAM-SHA-1`;
+const username= '';  //username
+const password='';//pass
+const dbUri=''; //druri
 //open connection and find 'users'
 async function open(){
     try {
